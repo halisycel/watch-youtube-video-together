@@ -18,6 +18,7 @@
 <body>
     <div class="page">
         <div class="header">
+            <div class="mobil-open-close" display="none"><label><input type="checkbox" id="search-button-up-down"> <i class="fas fa-chevron-down"></i></label></div>
             <div class="logo">
                 <i class="fab fa-youtube"></i>
                 <div class="logo-text">Watch Together</div>
@@ -63,6 +64,7 @@
                             </div>
                         </div>
                         <hr>
+                        <div id="mobil-info-button" display="none"><label><input type="checkbox" id="info-button-up-down"> <i class="fas fa-chevron-down"></i></label></div>
                         <div class="channel-and-description">
                             <a class="channel" id="yt-channel-link" target="_blank">
                                 <div class="left">
@@ -109,6 +111,11 @@
                             </div>
                         </div>
                     </div>
+                    <div class="mobile-tabs">
+                        <label id="mobile-users-button"><input type="radio" name="mobile-tabs" checked><span>users</span></label>
+                        <label id="mobile-queue-button"><input type="radio" name="mobile-tabs"><span>queue</span></label>
+                        <label id="mobile-messages-button"><input type="radio" name="mobile-tabs"><span>messages</span></label>
+                    </div>
                     <div class="messages">
                         <div class="title">Messages</div>
                         <div class="messages-in scroll"></div>
@@ -123,8 +130,11 @@
                     </div>
                 </div>
             </div>
+            <div class="mobile-footer">
+                <div class="creator">created by <a href="http://halisycel.site" target="_blank">halisycel</a></div>
+                <div>source cod <a href="https://github.com/halisycel/watch-youtube-video-together.git" target="_blank"><i class="fab fa-github"></i></a></div>
+            </div>
         </div>
-        
     </div>
     
 
