@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.center button {
+  margin: 10px 0;
+}
+
+.center input {
+  margin: 10px 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+body .page-body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body .page-body .logo {
+  height: 50px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .page-body .logo .fa-youtube {
+  color: #ff0000;
+  font-size: 50px;
+}
+
+body .page-body .logo .logo-text {
+  line-height: 50px;
+  margin-left: 5px;
+  font-size: 2rem;
+  font-family: 'Anton', sans-serif;
+}
+
+body .page-body .nickname-group {
+  width: calc(min(300px, 90%));
+}
+
+body .page-body .join-room input {
+  width: 80px;
+}
+
+body .footer {
+  padding-bottom: 5px;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .footer .creator {
+  margin-right: 10px;
+}
+
+body .footer div a {
+  text-decoration: none;
+  color: #ff0000;
+  font-weight: 600;
+}
+/*# sourceMappingURL=home.css.map */
